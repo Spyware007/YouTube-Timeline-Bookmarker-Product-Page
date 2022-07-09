@@ -1,38 +1,24 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: Inter-ExtraLight;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+  src: local("Inter-ExtraLight"),
+    url("./Fonts/Inter-ExtraLight.ttf") format("truetype");
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: Inter-Regular;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+  src: local("Inter-Regular"),
+    url("./Fonts/Inter-Regular.ttf") format("truetype");
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: Inter-SemiBold;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+  src: local("Inter-SemiBold"),
+    url("./Fonts/Inter-SemiBold.ttf") format("truetype");
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+* {
+  font-family: Inter-ExtraLight, "Open Sans", sans-serif;
 }

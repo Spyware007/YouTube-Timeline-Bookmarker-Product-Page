@@ -22,3 +22,7 @@
 * {
   font-family: Inter-ExtraLight, "Open Sans", sans-serif;
 }
+body,
+html {
+  background-color: #faf9f9;
+}

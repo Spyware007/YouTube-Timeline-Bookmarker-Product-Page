@@ -1,0 +1,28 @@
+.navbar {
+  height: 10vh;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+.img_container {
+  width: 100px;
+}
+.img {
+  width: 100px;
+}
+.nav_links_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav_link_container {
+  margin: 60px;
+}
+.github_container {
+  width: 80px;
+}
+.github_img {
+  width: 80px;
+}

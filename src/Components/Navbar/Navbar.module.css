@@ -1,4 +1,5 @@
 .navbar {
+  width: 100vw;
   height: 10vh;
   width: auto;
   display: flex;
@@ -16,6 +17,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  list-style-type: none;
 }
 .nav_link_container {
   margin: 60px;
@@ -26,3 +28,21 @@
 .github_img {
   width: 80px;
 }
+/* @media screen and (max-width: 1100px) {
+  .navbar {
+    padding: 0;
+  }
+  .nav_links_container {
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    z-index: 2;
+    background-color: black;
+    color: aliceblue;
+    position: absolute;
+    margin-top: 400px;
+  }
+  .nav_link_container {
+    margin: 20px;
+  }
+} */

@@ -24,17 +24,15 @@ const Creator = () => {
   return creators.map((creator, key) => {
     return (
       <>
-        <div key={key} className="creators_container">
-          <div className={classes.creator_container}>
-            <div className={classes.creator_img_container}>
-              <img
-                alt="creator"
-                className={classes.creator_img}
-                src={creator.img}
-              />
-            </div>
-            <h1 className={classes.creator_name}>{creator.name}</h1>
+        <div key={key} className={classes.creator_container}>
+          <div className={classes.creator_img_container}>
+            <img
+              alt="creator"
+              className={classes.creator_img}
+              src={creator.img}
+            />
           </div>
+          <h1 className={classes.creator_name}>{creator.name}</h1>
         </div>
       </>
     );

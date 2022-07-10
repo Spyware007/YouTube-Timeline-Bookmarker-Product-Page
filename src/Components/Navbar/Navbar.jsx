@@ -10,12 +10,12 @@ const Navbar = () => {
         <div className={classes.img_container}>
           <img src={logo_white} alt="" className={classes.img} />
         </div>
-        <div className={classes.nav_links_container}>
-          <div className={classes.nav_link_container}>HOME</div>
-          <div className={classes.nav_link_container}>ABOUT</div>
-          <div className={classes.nav_link_container}>EXTENSION</div>
-          <div className={classes.nav_link_container}>CONTACT US</div>
-        </div>
+        <ul className={classes.nav_links_container}>
+          <li className={classes.nav_link_container}>HOME</li>
+          <li className={classes.nav_link_container}>ABOUT</li>
+          <li className={classes.nav_link_container}>EXTENSION</li>
+          <li className={classes.nav_link_container}>CONTACT US</li>
+        </ul>
         <div className={classes.github_container}>
           <img src={github} alt="" className={classes.github_img} />
         </div>

@@ -68,7 +68,9 @@ const Landing = () => {
           </div>
           <div className={classes.creator_section}>
             <h1 className={classes.creators_heading}>Creators</h1>
-            <Creator />
+            <div className={classes.creators_container}>
+              <Creator />
+            </div>
           </div>
         </div>
         <div className={classes.right_container}>

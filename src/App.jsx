@@ -1,14 +1,31 @@
+import React, { useState } from "react";
 import "./App.css";
-import { Navbar, Landing, About, Extension, Footer } from "./Components";
+import {
+  Navbar,
+  Landing,
+  About,
+  Extension,
+  Footer,
+  Loader,
+} from "./Components";
 
 const App = () => {
+  const [loading, setLoading] = useState(true);
+
+  setTimeout(() => setLoading(false), 5000);
   return (
     <>
-      <Navbar />
-      <Landing />
-      <About />
-      <Extension />
-      <Footer />
+      {loading ? (
+        <Loader />
+      ) : (
+        <>
+          <Navbar />
+          <Landing />
+          <About />
+          <Extension />
+          <Footer />
+        </>
+      )}
     </>
   );
 };

@@ -122,6 +122,7 @@
 @media screen and (max-width: 400px) {
   .about_section {
     padding: 30px;
+    padding-top: 0;
   }
   .about_top {
     margin: 40px 0;

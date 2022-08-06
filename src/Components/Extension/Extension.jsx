@@ -35,7 +35,7 @@ const Extension = () => {
             </li>
           </ul>
 
-          <div>
+          <div className={classes.img_div}>
             <img className={classes.img} src={extensionImg} alt="img" />
           </div>
         </div>

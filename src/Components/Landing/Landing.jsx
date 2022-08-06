@@ -10,25 +10,34 @@ const creators = [
   {
     img: spider,
     name: "Om Gawande",
+    link: "https://www.linkedin.com/in/om-gawande/",
   },
   {
     img: harsh,
     name: "Harsh Jain",
+    link: "https://www.linkedin.com/in/harsh-vardhan-jain-9074551b7/",
   },
   {
     img: sapna,
     name: "Sapna Kul",
+    link: "https://www.linkedin.com/in/sapna-kul-84453a215/",
   },
 ];
 
 const Creator = () => {
   return creators.map((creator, key) => (
-    <div key={key} className={classes.creator_container}>
+    <a
+      href={creator.link}
+      target="_blank"
+      rel="noreferrer"
+      key={key}
+      className={classes.creator_container}
+    >
       <div className={classes.creator_img_container}>
         <img alt="creator" className={classes.creator_img} src={creator.img} />
       </div>
       <h1 className={classes.creator_name}>{creator.name}</h1>
-    </div>
+    </a>
   ));
 };
 

@@ -38,13 +38,13 @@ const Landing = () => {
         <div className={classes.left_container}>
           <div className={classes.title}>
             <h1 className={classes.title_text}>
-              <span className={classes.title_red}>Y</span>ouTube
+              <span className={classes.title_red}>B</span>ookmark
             </h1>
             <h1 className={classes.title_text}>
-              <span className={classes.title_red}>T</span>imeline
+              <span className={classes.title_red}>Y</span>our
             </h1>
             <h1 className={classes.title_text}>
-              <span className={classes.title_red}>B</span>ookmarker
+              <span className={classes.title_red}>T</span>imelines
             </h1>
             <div className={classes.dash}></div>
           </div>

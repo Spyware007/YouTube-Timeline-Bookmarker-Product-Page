@@ -40,6 +40,7 @@
   margin-top: 40px;
   width: 90vw;
   color: #fff;
+  margin-left: 200px;
 }
 .divider {
   display: flex;
@@ -107,5 +108,8 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+  }
+  .footer_bottom {
+    margin-left: 0;
   }
 }

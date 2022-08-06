@@ -158,3 +158,9 @@
 .btn:hover::after {
   background-color: #c4302b;
 }
+.cross {
+  font-size: 64px;
+  color: #ff0000;
+  transform: rotate(45deg);
+  cursor: pointer;
+}

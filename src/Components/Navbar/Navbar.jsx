@@ -18,6 +18,9 @@ const Navbar = () => {
       {model && (
         <div onClick={modelCloseHandler} className={classes.model}>
           <div className={classes.model_div}>
+            <di className={classes.cross}>
+              <ion-icon name="add-outline"></ion-icon>
+            </di>
             <a
               href="https://github.com/Spyware007/YouTube-Timeline-Bookmarker-Product-Page"
               target="_blank"

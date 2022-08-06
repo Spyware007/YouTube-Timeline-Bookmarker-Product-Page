@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Extension.module.css";
 import extensionImg from "../../Assets/extension.png";
+import ReactTooltip from "react-tooltip";
 
 const Extension = () => {
   return (
@@ -22,9 +23,12 @@ const Extension = () => {
                 href="https://github.com/Sriver27/YouTube-Timeline-Bookmarker"
                 rel="noopener noreferrer"
                 target="_blank"
+                className={classes.repo_link}
+                data-tip="Link to Repo"
               >
                 here
               </a>{" "}
+              <ReactTooltip place="top" type="dark" effect="float" />
               and save it on your local machine.
             </li>
             <li className={classes.list_item}>

@@ -29,3 +29,8 @@ body,
 html {
   background-color: #faf9f9;
 }
+a {
+  all: unset;
+  cursor: pointer;
+  display: block;
+}

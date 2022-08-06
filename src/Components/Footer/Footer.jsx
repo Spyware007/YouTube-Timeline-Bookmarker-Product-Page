@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Footer.module.css";
 import logo from "../../Assets/logo_dark.png";
+import { HashLink } from "react-router-hash-link";
 
 const Footer = () => {
   return (
@@ -60,9 +61,15 @@ const Footer = () => {
             <div className={classes.footer_bottom_content}>
               <h2 className={classes.content_top}>Links</h2>
               <div>
-                <h1 className={classes.links}>Home</h1>
-                <h1 className={classes.links}>About Us</h1>
-                <h1 className={classes.links}>Extension</h1>
+                <HashLink smooth to="#home" className={classes.links}>
+                  Home
+                </HashLink>
+                <HashLink smooth to="#about" className={classes.links}>
+                  About Us
+                </HashLink>
+                <HashLink smooth to="#extension" className={classes.links}>
+                  Extension
+                </HashLink>
               </div>
             </div>
             <div className={classes.footer_bottom_content}>

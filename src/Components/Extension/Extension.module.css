@@ -1,0 +1,35 @@
+.extension_section {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  padding-top: 20px;
+  row-gap: 40px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content_header {
+  color: #282828cc;
+  padding-bottom: 4px;
+  font-size: 48px;
+  border-bottom: 5px solid #00000080;
+  margin-bottom: 10px;
+}
+.content_para {
+  color: #282828cc;
+  font-size: 18px;
+}
+.bottom_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img {
+  width: 400px;
+}

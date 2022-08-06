@@ -5,7 +5,7 @@ import logo from "../../Assets/logo_dark.png";
 const Footer = () => {
   return (
     <>
-      <div className={classes.footer}>
+      <div id="footer" className={classes.footer}>
         <div className={classes.footer_top}>
           <div className={classes.footer_content}>
             <p className={classes.footer_content1}>
@@ -35,9 +35,24 @@ const Footer = () => {
             <div className={classes.footer_bottom_content}>
               <h2 className={classes.content_top}>Our Creators</h2>
               <div>
-                <h1 className={classes.links}>Spider</h1>
-                <h1 className={classes.links}>Sriver</h1>
-                <h1 className={classes.links}>Dream</h1>
+                <a
+                  href="https://www.linkedin.com/in/om-gawande/"
+                  className={classes.links}
+                >
+                  Spider
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/harsh-vardhan-jain-9074551b7/"
+                  className={classes.links}
+                >
+                  Sriver
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/sapna-kul-84453a215/"
+                  className={classes.links}
+                >
+                  Dream
+                </a>
               </div>
             </div>
           </div>
@@ -53,8 +68,22 @@ const Footer = () => {
             <div className={classes.footer_bottom_content}>
               <h2 className={classes.content_top}>⭐️ Repos</h2>
               <div>
-                <h1 className={classes.links}>Extension Page</h1>
-                <h1 className={classes.links}>Extension</h1>
+                <a
+                  href="https://github.com/Spyware007/YouTube-Timeline-Bookmarker-Product-Page"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  className={classes.links}
+                >
+                  Extension Page
+                </a>
+                <a
+                  href="https://github.com/Sriver27/YouTube-Timeline-Bookmarker"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  className={classes.links}
+                >
+                  Extension
+                </a>
               </div>
             </div>
           </div>

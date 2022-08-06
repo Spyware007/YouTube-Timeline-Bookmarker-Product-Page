@@ -5,7 +5,7 @@ import extensionImg from "../../Assets/extension.png";
 const Extension = () => {
   return (
     <>
-      <div className={classes.extension_section}>
+      <div id="extension" className={classes.extension_section}>
         <div className={classes.content}>
           <h1 className={classes.content_header}>
             How to add it to your browser?
@@ -17,8 +17,15 @@ const Extension = () => {
         <div className={classes.bottom_section}>
           <ul className={classes.list_items}>
             <li className={classes.list_item}>
-              Download the source Code from here and save it on your local
-              machine.
+              Download the source Code from{" "}
+              <a
+                href="https://github.com/Sriver27/YouTube-Timeline-Bookmarker"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                here
+              </a>{" "}
+              and save it on your local machine.
             </li>
             <li className={classes.list_item}>
               Open Browser and go to settings.

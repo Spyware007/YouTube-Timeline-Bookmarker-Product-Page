@@ -6,7 +6,7 @@ import bookmark from "../../Assets/bookmark.png";
 const About = () => {
   return (
     <>
-      <div className={classes.about_section}>
+      <div id="about" className={classes.about_section}>
         <div className={classes.about_top}>
           <h1 className={classes.about_text}>About</h1>
           <div className={classes.content1}>

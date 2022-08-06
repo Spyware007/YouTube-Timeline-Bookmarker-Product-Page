@@ -34,7 +34,7 @@ const Creator = () => {
 const Landing = () => {
   return (
     <>
-      <div className={classes.container}>
+      <div id="home" className={classes.container}>
         <div className={classes.left_container}>
           <div className={classes.title}>
             <h1 className={classes.title_text}>

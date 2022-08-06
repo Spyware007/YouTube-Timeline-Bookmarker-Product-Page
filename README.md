@@ -1,17 +1,11 @@
 <div align = "center">
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
 <img style="border-radius:80px;" width="100px" src = "./readme_assets/logo.png">
 
 <h1 align="center"> <font size="5"> <b> Youtube Timeline Bookmarker </b></h1>
 <!-- PROJECT LOGO -->
 
 <h2><b>📚 Bookmark timelines in Youtube videos</b></h2>
-
-# [DEMO LINK](https://yttb.netlify.app/)
-
-## [Extension Code Link](https://github.com/Sriver27/YouTube-Timeline-Bookmarker)
 
   </div>
   
@@ -20,6 +14,15 @@
 <div align="center">
 <img  src = "./readme_assets/mockup.png">
   </div>
+  
+  <div align = "center">
+
+  
+  # [DEMO LINK](https://yttb.netlify.app/)
+
+## [Extension Code Link](https://github.com/Sriver27/YouTube-Timeline-Bookmarker)
+
+</div>
 
 <table>
   <tr>

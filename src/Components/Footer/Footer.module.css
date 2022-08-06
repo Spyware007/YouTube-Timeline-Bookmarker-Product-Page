@@ -76,6 +76,10 @@
   color: #bfbfbf;
   font-size: 18px;
   margin: 14px 0;
+  transition: all 0.3s ease-in-out;
+}
+.links:hover {
+  color: #e95346;
 }
 .dash {
   width: 80vw;

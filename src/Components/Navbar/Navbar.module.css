@@ -21,12 +21,25 @@
 }
 .nav_link_container {
   margin: 60px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+.nav_link_container:hover {
+  color: rgb(255, 0, 0);
+  border-bottom: 2px solid red;
 }
 .github_container {
   width: 80px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50%;
 }
 .github_img {
   width: 80px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 50%;
+}
+.github_container:hover {
+  transform: rotate(720deg);
 }
 @media screen and (max-width: 1100px) {
   .navbar {

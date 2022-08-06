@@ -4,6 +4,7 @@ import spider from "../../Assets/spider.png";
 import harsh from "../../Assets/harsh.png";
 import sapna from "../../Assets/sapna.png";
 import a from "../../Assets/1.png";
+import { HashLink } from "react-router-hash-link";
 
 const creators = [
   {
@@ -55,9 +56,9 @@ const Landing = () => {
               you are revisting the video.
             </p>
           </div>
-          <div className={classes.btn_container}>
+          <HashLink smooth to="#extension" className={classes.btn_container}>
             <button className={classes.btn}>Get Started &rarr;</button>
-          </div>
+          </HashLink>
           <div className={classes.creator_section}>
             <h1 className={classes.creators_heading}>Creators</h1>
             <div className={classes.creators_container}>

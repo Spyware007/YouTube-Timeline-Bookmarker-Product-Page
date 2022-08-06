@@ -2,6 +2,7 @@ import React from "react";
 import classes from "./Extension.module.css";
 import extensionImg from "../../Assets/extension.png";
 import ReactTooltip from "react-tooltip";
+import { Link } from "react-router-dom";
 
 const Extension = () => {
   return (
@@ -19,24 +20,24 @@ const Extension = () => {
           <ul className={classes.list_items}>
             <li className={classes.list_item}>
               Download the source Code from{" "}
-              <a
-                href="https://github.com/Sriver27/YouTube-Timeline-Bookmarker"
-                rel="noopener noreferrer"
+              <Link
+                to="/extension_files/YTTB.zip"
+                download
                 target="_blank"
                 className={classes.repo_link}
-                data-tip="Link to Repo"
+                data-tip="Click to download"
               >
                 here
-              </a>{" "}
-              <ReactTooltip place="top" type="dark" effect="float" />
+              </Link>{" "}
+              <ReactTooltip place="top" type="dark" effect="float" />, unzip it
               and save it on your local machine.
             </li>
             <li className={classes.list_item}>
               Open Browser and go to settings.
             </li>
             <li className={classes.list_item}>
-              Go to extensions and activate developer mode (at top right
-              corner).
+              Go to extensions (manage) and activate developer mode (at top
+              right corner).
             </li>
             <li className={classes.list_item}>
               Now click on Load unpacked on left side of the window!

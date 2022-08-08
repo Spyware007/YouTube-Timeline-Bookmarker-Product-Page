@@ -4,7 +4,7 @@
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background-color: black;
+  background-color: #faf9f9;
 }
 .svg {
   width: 114px;
@@ -13,7 +13,7 @@
 .circle {
   fill: none;
   stroke-width: 10px;
-  stroke: rgb(19, 18, 18);
+  stroke: rgb(208, 208, 208);
 }
 .loader {
   fill: none;
@@ -23,7 +23,7 @@
   transform-origin: 50% 50%;
   stroke-dasharray: 360;
   stroke-dashoffset: 100;
-  stroke: rgb(5, 255, 193);
+  stroke: #ff0000;
   animation: load 10s infinite;
 }
 @keyframes load {

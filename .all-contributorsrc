@@ -27,6 +27,18 @@
         "content",
         "review"
       ]
+    },
+    {
+      "login": "Sriver27",
+      "name": "Harsh Jain",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75061992?v=4",
+      "profile": "https://github.com/Sriver27",
+      "contributions": [
+        "code",
+        "data",
+        "doc",
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,

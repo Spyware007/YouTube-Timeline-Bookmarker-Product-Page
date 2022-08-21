@@ -28,6 +28,7 @@
 body,
 html {
   background-color: #faf9f9;
+  overflow-x: hidden;
 }
 a {
   all: unset;

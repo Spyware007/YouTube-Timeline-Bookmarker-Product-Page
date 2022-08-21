@@ -15,7 +15,11 @@ const Footer = () => {
             <p className={classes.footer_content2}>Thank you !</p>
           </div>
           <div className={classes.footer_btn}>
-            <a href="https://www.buymeacoffee.com/omgawande">
+            <a
+              rel="noreferrer noopener"
+              href="https://www.buymeacoffee.com/omgawande"
+              target="_blank"
+            >
               <img
                 alt="buymeacoffee"
                 src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=omgawande&button_colour=fff&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=282828"

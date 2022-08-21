@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { HashLink } from "react-router-hash-link";
+import { Link } from "react-router-dom";
 import logo_white from "../../Assets/logo_white.png";
 import github from "../../Assets/github.png";
 import classes from "./Navbar.module.css";
@@ -41,9 +42,9 @@ const Navbar = () => {
         </div>
       )}
       <nav className={classes.navbar}>
-        <div className={classes.img_container}>
-          <img src={logo_white} alt="" className={classes.img} />
-        </div>
+        <Link to="/" className={classes.img_container}>
+          <img src={logo_white} alt="logo" className={classes.img} />
+        </Link>
         <ul className={classes.nav_links_container}>
           <HashLink smooth to="#home" className={classes.nav_link_container}>
             HOME

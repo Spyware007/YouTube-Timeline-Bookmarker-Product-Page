@@ -34,6 +34,16 @@
 
 ---
 
+# How to use? 👀
+
+
+
+https://user-images.githubusercontent.com/89961974/187049658-09f1b5f9-466f-45a8-ae3f-4c9933aef70b.mov
+
+
+
+---
+
 ## Tech Stack 💻
 
 ---
